@@ -45,7 +45,7 @@ def upload_to_s3(file_path):
     load_dotenv()
 
     bucket_name = "pipeline-api-data"
-    object_name = "tmp/transformed_data.json"
+    object_name = "tmp/transformed_data"
 
     print(f'Starting data upload to S3 with path: {file_path}')
 
